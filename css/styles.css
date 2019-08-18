@@ -1,0 +1,289 @@
+header {
+    position: relative;
+    background-color: black;
+    height: 100vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+    position: relative;
+    z-index: 2;
+}
+
+header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #3c3c3c;
+}
+
+.nav-link {
+    font-family: Firasans, sans-serif;
+    color: #b8940a;
+}
+
+a.navbar-brand {
+    color: #b8940a;
+}
+
+.heading {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 30%;
+    font-family: Firasans, sans-serif;
+    color: #b8940a;
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.slide {
+    background-image: url("../Imagenes_De_Prueba/breather-163397-1.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.heading-2 {
+    /* margin-top: 0px;
+    margin-bottom: 1px;
+    font-family: Firasans, sans-serif; */
+    text-align: center;
+    color: #b8940a;
+}
+
+.section-3 {
+    height: 1000px;
+    background-image: url('../Imagenes_De_Prueba/Fondo-Gris-.png');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.section-4 {
+    height: 500px;
+    background-image: url('../Imagenes_De_Prueba/TEXTURA-Izquierda.png');
+    background-position: 0px 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.footer {
+    height: 300px;
+    background-color: #b8940a;
+}
+
+.paragraph-3 {
+    font-family: Firasans, sans-serif;
+    text-align: justify;
+}
+
+
+/* button {
+    overflow: visible;
+} */
+
+body {
+    margin: 0;
+    min-height: 100%;
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333;
+}
+
+h1,
+h2 {
+    Color: #b8940b;
+    font-size: 32px;
+    line-height: 36px;
+    margin-top: 20px;
+}
+
+h3,
+h4,
+h5 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 10px;
+}
+
+h5 {
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 10px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #b8940a;
+}
+
+.titleCard {
+    color: #fff;
+    font-size: 250%;
+}
+
+.card-centered {
+    margin: auto;
+    max-width: 300px;
+}
+
+.submit-button {
+    border-style: solid;
+    border-width: 1px;
+    border-color: hsla(0, 0%, 100%, .27);
+    background-color: rgba(187, 169, 98, .77);
+}
+
+.w-button {
+    display: inline-block;
+    padding: 9px 15px;
+    background-color: rgba(187, 169, 98, .77);
+    color: white;
+    border: 0;
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 0;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .section-3 {
+        display: block;
+        height: 800px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: start;
+        -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        -webkit-box-align: stretch;
+        -webkit-align-items: stretch;
+        -ms-flex-align: stretch;
+        align-items: stretch;
+    }
+    .footer {
+        height: 620px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .section-3 {
+        display: block;
+        height: 1400px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: start;
+        -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        -webkit-box-align: stretch;
+        -webkit-align-items: stretch;
+        -ms-flex-align: stretch;
+        align-items: stretch;
+    }
+    .footer {
+        height: 320px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .section-3 {
+        display: block;
+        height: 1200px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: start;
+        -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        -webkit-box-align: stretch;
+        -webkit-align-items: stretch;
+        -ms-flex-align: stretch;
+        align-items: stretch;
+    }
+    .footer {
+        height: 650px;
+    }
+    .im-centered {
+        margin: auto;
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 575px) {
+    /*479*/
+    .section-2 {
+        height: 1600px;
+    }
+    .section-3 {
+        display: block;
+        height: 1200px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: start;
+        -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        -webkit-box-align: stretch;
+        -webkit-align-items: stretch;
+        -ms-flex-align: stretch;
+        align-items: stretch;
+    }
+    .footer {
+        height: 650px;
+    }
+    .im-centered {
+        margin: auto;
+        max-width: 300px;
+    }
+}
